@@ -24,7 +24,7 @@ kotlin {
 }
 
 application {
-    mainClass.set("MainKt")
+    mainClass.set("PidarBotMaingit Kt")
 }
 
 
