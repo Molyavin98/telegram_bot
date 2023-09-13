@@ -13,6 +13,7 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
+    implementation ("io.github.kotlin-telegram-bot.kotlin-telegram-bot:telegram:6.1.0")
 }
 
 tasks.test {
@@ -24,11 +25,6 @@ kotlin {
 }
 
 application {
-    mainClass.set("PidarBotMaingit Kt")
-}
-
-
-dependencies {
-    implementation ("io.github.kotlin-telegram-bot.kotlin-telegram-bot:telegram:6.1.0")
+    mainClass.set("PidarBotMainKt")
 }
 
